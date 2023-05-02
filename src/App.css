@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.MuiTableCell-body{
+  padding: 10px !important;
+  font-size: 13px !important;
+  white-space: nowrap;
+}
+
+.MuiTableCell-head{
+  padding-bottom: 5px !important;
+  padding-top: 5px !important;
+  white-space: nowrap;
+}
+
+table tbody tr:nth-child(odd){
+  background-color: var(--bs-table-bg);
+  background: rgba(0,0,0,0.05);
+}
+
+body{
+  background: #E6ECF5;
+}
+
+.MTableToolbar-root-5 {
+  padding-left: 10px !important;
+  min-height: 50px !important; 
+  padding-top: 10px !important;
+  padding-bottom: 20px;
+}
+
+.MuiTypography-h6 {
+  color: var(--primary) !important;
+}
+
+.regbuttons button{
+  font-size: 11px
+}
+
+.MuiSvgIcon-root {
+  font-size: 18px !important;
+}
+
+.list-none{
+  list-style: none;
+}
+
+.regbuttons a{
+  color: unset;
+}
+
+.MuiButton-contained {
+  background-color: var(--primary-70) !important;
+  color: white !important;
+  padding: 10px !important;
+  line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 4px !important;
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #fff;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+
+table .MuiToolbar-root.MuiToolbar-regular {
+  border-top: none !important;
+}
+
+.box{
+  padding-right: 8px;
+  border-top: 3px solid var(--primary);
+}

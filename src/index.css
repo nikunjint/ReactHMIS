@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import 'tailwindcss/utilities';
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif !important;
+}
+
+h1,h2,h3,h4,h5,h6,a,p,span,input,label,table{
+  font-family: Poppins, sans-serif !important;
+}
+
+input{
+  font-size: 14px !important;
+}
+
+form label{
+  font-size: 14px !important;
+}
+
+select{
+  font-size: 14px !important;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+:root {
+  --primary: #0d2f66;
+  --light-0: #f8f9fa;
+  --light-10: #dfe0e1;
+  --light-20: #c6c7c8;
+  --light-30: #aeaeaf;
+  --light-40: #959596;
+  --light-50: #7c7d7d;
+  --light-60: #636464;
+  --light-70: #4a4b4b;
+  --light-80: #323232;
+  --light-90: #191919;
+  --light-100: #000000;
+  --dark-0: #212529;
+  --dark-10: #1e2125;
+  --dark-20: #1a1e21;
+  --dark-30: #171a1d;
+  --dark-40: #141619;
+  --dark-50: #111315;
+  --dark-60: #0d0f10;
+  --dark-70: #0a0b0c;
+  --dark-80: #070708;
+  --dark-90: #030404;
+  --dark-100: #000000;
+  --primary-0: rgb(23, 83, 179);
+  --primary-10: #154ba1;
+  --primary-20: #12428f;
+  --primary-30: #103a7d;
+  --primary-40: #0e326b;
+  --primary-50: #0c2a5a;
+  --primary-60: #092148;
+  --primary-70: #071936;
+  --primary-80: #051124;
+  --primary-90: #020812;
+  --primary-100: #000000;
+  --primary-light-0: #1753b3;
+  --primary-light-10: #2e64bb;
+  --primary-light-20: #4575c2;
+  --primary-light-30: #5d87ca;
+  --primary-light-40: #7498d1;
+  --primary-light-50: #8ba9d9;
+  --primary-light-60: #a2bae1;
+  --primary-light-70: #b9cbe8;
+  --primary-light-80: #d1ddf0;
+  --primary-light-90: #e8eef7;
+  --primary-light-100: #fff;
+  --bs-font-sans-serif: "Poppins", sans-serif;
+  --bs-primary-rgb: 13, 47, 102;
+  --bs-table-bg: var(--primary);
+  --easy-table-header-background-color: var(--primary) !important;
+  --easy-table-header-font-color: #fff !important;
+}
+
+.col{
+  text-align: left
+}
+
+.MuiPopover-paper{
+  min-width: 150px !important;
+  max-width: calc(100% - 150px) !important;
+}
+
+.MuiButton-contained{
+  background-color: var(--primary-70) !important;
+}
+
+.fw-600{
+  font-weight: 600;
+}
+
+.fs-15{
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.pl-80{
+  padding-left: 80px;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.regbuttons{
+  position: absolute;
+  z-index: 999;
+  right: 300px;
+  top: 1.8%;
+}
+
+.regbuttons button:not(:last-child){
+  margin-right: 10px;
+}
+
